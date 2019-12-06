@@ -1,7 +1,8 @@
 # rsmt
-Rapid Surrogate Modeling Toolbox (rsmt), is a data-driven surrogate modeling 
+Reservoir Surrogate Modeling Toolbox (rsmt), is a data-driven surrogate modeling 
 package and related tools focused on speed and easiness to create some 
-initial model propositions in the proxy/surrogate/substitute problem domain.
+initial model propositions in the proxy/surrogate/substitute problem domain for
+oil and gas reservoirs.
 
 
 ### simhand
