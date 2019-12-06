@@ -1,4 +1,4 @@
-from .instance import Well
-from .instance import Instance
+from .sim_instance import Well
+from .sim_instance import SimInstance
 from .resevoir import Reservoir
-from .project import Project
+from .sim_project import SimProject

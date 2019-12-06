@@ -1,6 +1,6 @@
 
 
-class Project:
+class SimProject:
 
     def __init__(self, reservoir=None, instances=None, time_steps=None):
 

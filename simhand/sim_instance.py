@@ -20,7 +20,7 @@ class Well:
         pass
 
 
-class Instance:
+class SimInstance:
 
     def __init__(self, reservoir=None, wells=None, time_steps=None):
 
