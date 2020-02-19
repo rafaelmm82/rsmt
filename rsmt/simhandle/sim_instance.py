@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class Well:
+class SimWell:
 
     def __init__(self, reservoir=None, name=None, pos=None, perforations=None):
 

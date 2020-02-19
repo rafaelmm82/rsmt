@@ -3,7 +3,7 @@ import numpy as np
 
 class Reservoir:
 
-    def __init__(self, dimension=None, name=None):
+    def __init__(self, dimension=None, name=None, file_header):
 
         self.dimension = dimension  # size of x, y, z
         self.name = name  # str with name
