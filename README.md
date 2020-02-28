@@ -18,21 +18,32 @@ It is based on the following classes:
  - Project, consist in aggregate a set of reservoir development simulations,
  considering its individual plan, sharing the same time step.
  - Plan, a development specification considering the well configuration, types,
- opens, closeness, over the time steps.
+ opens, closeness, over the time steps. (FUTURE)
 
+**Doc Description:** 
+"The simhandle module is responsible to interact with the oil and gas reservoir 
+simulator. Through it, it is possible to define a generic reservoir 
+specification (dimension, actual state, and petrophysical properties), a set of 
+wells and its attributes and a plan of development (duration, step size, etc.). 
+With that, it is possible to generate the reservoir simulator inputs, manage the 
+execution process, retrieve the output and incorporate it. With all this data 
+the module is able to feed the Data Source storage container (data and 
+metadata).
+"
 
 ### datahandle
 
 
-### mlmodels
-
-
-### report
+### mlmodel
 
 
 ### modelsim
 
 
+### report
+
+
 ### visualization
 
- i
+
+### datamanager
