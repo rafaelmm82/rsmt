@@ -1,0 +1,297 @@
+
+*FILE 'sim_02_spe9.irf'
+
+** 
+** static properties
+** -----------------
+** 
+
+*OUTPUT 'static/sim_02_permeability_i.rwo'
+*PROPERTY-FOR 'Permeability I'              0 *MATRIX *XYZLAYER 0
+*OUTPUT 'static/sim_02_permeability_j.rwo'
+*PROPERTY-FOR 'Permeability J'              0 *MATRIX *XYZLAYER 0
+*OUTPUT 'static/sim_02_permeability_k.rwo'
+*PROPERTY-FOR 'Permeability K'              0 *MATRIX *XYZLAYER 0
+*OUTPUT 'static/sim_02_porosity.rwo'
+*PROPERTY-FOR 'Porosity'              0 *MATRIX *XYZLAYER 0
+
+
+** 
+** dynamic properties
+** ------------------
+** 
+
+
+
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_00001.rwo'
+*PROPERTY-FOR 'Oil Saturation'              00001 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_00366.rwo'
+*PROPERTY-FOR 'Oil Saturation'              00366 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_00731.rwo'
+*PROPERTY-FOR 'Oil Saturation'              00731 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_01096.rwo'
+*PROPERTY-FOR 'Oil Saturation'              01096 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_01461.rwo'
+*PROPERTY-FOR 'Oil Saturation'              01461 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_01827.rwo'
+*PROPERTY-FOR 'Oil Saturation'              01827 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_02192.rwo'
+*PROPERTY-FOR 'Oil Saturation'              02192 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_02557.rwo'
+*PROPERTY-FOR 'Oil Saturation'              02557 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_02922.rwo'
+*PROPERTY-FOR 'Oil Saturation'              02922 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_03288.rwo'
+*PROPERTY-FOR 'Oil Saturation'              03288 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_03561.rwo'
+*PROPERTY-FOR 'Oil Saturation'              03561 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_03653.rwo'
+*PROPERTY-FOR 'Oil Saturation'              03653 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_04018.rwo'
+*PROPERTY-FOR 'Oil Saturation'              04018 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_04383.rwo'
+*PROPERTY-FOR 'Oil Saturation'              04383 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_04749.rwo'
+*PROPERTY-FOR 'Oil Saturation'              04749 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_05114.rwo'
+*PROPERTY-FOR 'Oil Saturation'              05114 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_05479.rwo'
+*PROPERTY-FOR 'Oil Saturation'              05479 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_05844.rwo'
+*PROPERTY-FOR 'Oil Saturation'              05844 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_06210.rwo'
+*PROPERTY-FOR 'Oil Saturation'              06210 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_06575.rwo'
+*PROPERTY-FOR 'Oil Saturation'              06575 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_06940.rwo'
+*PROPERTY-FOR 'Oil Saturation'              06940 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_07305.rwo'
+*PROPERTY-FOR 'Oil Saturation'              07305 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_07671.rwo'
+*PROPERTY-FOR 'Oil Saturation'              07671 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_08036.rwo'
+*PROPERTY-FOR 'Oil Saturation'              08036 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_08401.rwo'
+*PROPERTY-FOR 'Oil Saturation'              08401 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_08766.rwo'
+*PROPERTY-FOR 'Oil Saturation'              08766 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_09132.rwo'
+*PROPERTY-FOR 'Oil Saturation'              09132 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_09497.rwo'
+*PROPERTY-FOR 'Oil Saturation'              09497 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_09862.rwo'
+*PROPERTY-FOR 'Oil Saturation'              09862 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_10227.rwo'
+*PROPERTY-FOR 'Oil Saturation'              10227 *MATRIX *XYZLAYER 0
+*OUTPUT   'oil_saturation/sim_02_oil_saturation_time_10593.rwo'
+*PROPERTY-FOR 'Oil Saturation'              10593 *MATRIX *XYZLAYER 0
+
+
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_00001.rwo'
+*PROPERTY-FOR 'Gas Saturation'              00001 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_00366.rwo'
+*PROPERTY-FOR 'Gas Saturation'              00366 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_00731.rwo'
+*PROPERTY-FOR 'Gas Saturation'              00731 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_01096.rwo'
+*PROPERTY-FOR 'Gas Saturation'              01096 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_01461.rwo'
+*PROPERTY-FOR 'Gas Saturation'              01461 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_01827.rwo'
+*PROPERTY-FOR 'Gas Saturation'              01827 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_02192.rwo'
+*PROPERTY-FOR 'Gas Saturation'              02192 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_02557.rwo'
+*PROPERTY-FOR 'Gas Saturation'              02557 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_02922.rwo'
+*PROPERTY-FOR 'Gas Saturation'              02922 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_03288.rwo'
+*PROPERTY-FOR 'Gas Saturation'              03288 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_03561.rwo'
+*PROPERTY-FOR 'Gas Saturation'              03561 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_03653.rwo'
+*PROPERTY-FOR 'Gas Saturation'              03653 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_04018.rwo'
+*PROPERTY-FOR 'Gas Saturation'              04018 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_04383.rwo'
+*PROPERTY-FOR 'Gas Saturation'              04383 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_04749.rwo'
+*PROPERTY-FOR 'Gas Saturation'              04749 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_05114.rwo'
+*PROPERTY-FOR 'Gas Saturation'              05114 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_05479.rwo'
+*PROPERTY-FOR 'Gas Saturation'              05479 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_05844.rwo'
+*PROPERTY-FOR 'Gas Saturation'              05844 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_06210.rwo'
+*PROPERTY-FOR 'Gas Saturation'              06210 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_06575.rwo'
+*PROPERTY-FOR 'Gas Saturation'              06575 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_06940.rwo'
+*PROPERTY-FOR 'Gas Saturation'              06940 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_07305.rwo'
+*PROPERTY-FOR 'Gas Saturation'              07305 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_07671.rwo'
+*PROPERTY-FOR 'Gas Saturation'              07671 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_08036.rwo'
+*PROPERTY-FOR 'Gas Saturation'              08036 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_08401.rwo'
+*PROPERTY-FOR 'Gas Saturation'              08401 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_08766.rwo'
+*PROPERTY-FOR 'Gas Saturation'              08766 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_09132.rwo'
+*PROPERTY-FOR 'Gas Saturation'              09132 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_09497.rwo'
+*PROPERTY-FOR 'Gas Saturation'              09497 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_09862.rwo'
+*PROPERTY-FOR 'Gas Saturation'              09862 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_10227.rwo'
+*PROPERTY-FOR 'Gas Saturation'              10227 *MATRIX *XYZLAYER 0
+*OUTPUT   'gas_saturation/sim_02_gas_saturation_time_10593.rwo'
+*PROPERTY-FOR 'Gas Saturation'              10593 *MATRIX *XYZLAYER 0
+
+
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_00001.rwo'
+*PROPERTY-FOR 'Water Saturation'              00001 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_00366.rwo'
+*PROPERTY-FOR 'Water Saturation'              00366 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_00731.rwo'
+*PROPERTY-FOR 'Water Saturation'              00731 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_01096.rwo'
+*PROPERTY-FOR 'Water Saturation'              01096 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_01461.rwo'
+*PROPERTY-FOR 'Water Saturation'              01461 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_01827.rwo'
+*PROPERTY-FOR 'Water Saturation'              01827 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_02192.rwo'
+*PROPERTY-FOR 'Water Saturation'              02192 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_02557.rwo'
+*PROPERTY-FOR 'Water Saturation'              02557 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_02922.rwo'
+*PROPERTY-FOR 'Water Saturation'              02922 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_03288.rwo'
+*PROPERTY-FOR 'Water Saturation'              03288 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_03561.rwo'
+*PROPERTY-FOR 'Water Saturation'              03561 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_03653.rwo'
+*PROPERTY-FOR 'Water Saturation'              03653 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_04018.rwo'
+*PROPERTY-FOR 'Water Saturation'              04018 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_04383.rwo'
+*PROPERTY-FOR 'Water Saturation'              04383 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_04749.rwo'
+*PROPERTY-FOR 'Water Saturation'              04749 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_05114.rwo'
+*PROPERTY-FOR 'Water Saturation'              05114 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_05479.rwo'
+*PROPERTY-FOR 'Water Saturation'              05479 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_05844.rwo'
+*PROPERTY-FOR 'Water Saturation'              05844 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_06210.rwo'
+*PROPERTY-FOR 'Water Saturation'              06210 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_06575.rwo'
+*PROPERTY-FOR 'Water Saturation'              06575 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_06940.rwo'
+*PROPERTY-FOR 'Water Saturation'              06940 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_07305.rwo'
+*PROPERTY-FOR 'Water Saturation'              07305 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_07671.rwo'
+*PROPERTY-FOR 'Water Saturation'              07671 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_08036.rwo'
+*PROPERTY-FOR 'Water Saturation'              08036 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_08401.rwo'
+*PROPERTY-FOR 'Water Saturation'              08401 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_08766.rwo'
+*PROPERTY-FOR 'Water Saturation'              08766 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_09132.rwo'
+*PROPERTY-FOR 'Water Saturation'              09132 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_09497.rwo'
+*PROPERTY-FOR 'Water Saturation'              09497 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_09862.rwo'
+*PROPERTY-FOR 'Water Saturation'              09862 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_10227.rwo'
+*PROPERTY-FOR 'Water Saturation'              10227 *MATRIX *XYZLAYER 0
+*OUTPUT   'water_saturation/sim_02_water_saturation_time_10593.rwo'
+*PROPERTY-FOR 'Water Saturation'              10593 *MATRIX *XYZLAYER 0
+
+
+*OUTPUT   'pressure/sim_02_pressure_time_00001.rwo'
+*PROPERTY-FOR 'Pressure'              00001 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_00366.rwo'
+*PROPERTY-FOR 'Pressure'              00366 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_00731.rwo'
+*PROPERTY-FOR 'Pressure'              00731 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_01096.rwo'
+*PROPERTY-FOR 'Pressure'              01096 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_01461.rwo'
+*PROPERTY-FOR 'Pressure'              01461 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_01827.rwo'
+*PROPERTY-FOR 'Pressure'              01827 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_02192.rwo'
+*PROPERTY-FOR 'Pressure'              02192 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_02557.rwo'
+*PROPERTY-FOR 'Pressure'              02557 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_02922.rwo'
+*PROPERTY-FOR 'Pressure'              02922 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_03288.rwo'
+*PROPERTY-FOR 'Pressure'              03288 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_03561.rwo'
+*PROPERTY-FOR 'Pressure'              03561 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_03653.rwo'
+*PROPERTY-FOR 'Pressure'              03653 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_04018.rwo'
+*PROPERTY-FOR 'Pressure'              04018 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_04383.rwo'
+*PROPERTY-FOR 'Pressure'              04383 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_04749.rwo'
+*PROPERTY-FOR 'Pressure'              04749 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_05114.rwo'
+*PROPERTY-FOR 'Pressure'              05114 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_05479.rwo'
+*PROPERTY-FOR 'Pressure'              05479 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_05844.rwo'
+*PROPERTY-FOR 'Pressure'              05844 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_06210.rwo'
+*PROPERTY-FOR 'Pressure'              06210 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_06575.rwo'
+*PROPERTY-FOR 'Pressure'              06575 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_06940.rwo'
+*PROPERTY-FOR 'Pressure'              06940 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_07305.rwo'
+*PROPERTY-FOR 'Pressure'              07305 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_07671.rwo'
+*PROPERTY-FOR 'Pressure'              07671 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_08036.rwo'
+*PROPERTY-FOR 'Pressure'              08036 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_08401.rwo'
+*PROPERTY-FOR 'Pressure'              08401 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_08766.rwo'
+*PROPERTY-FOR 'Pressure'              08766 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_09132.rwo'
+*PROPERTY-FOR 'Pressure'              09132 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_09497.rwo'
+*PROPERTY-FOR 'Pressure'              09497 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_09862.rwo'
+*PROPERTY-FOR 'Pressure'              09862 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_10227.rwo'
+*PROPERTY-FOR 'Pressure'              10227 *MATRIX *XYZLAYER 0
+*OUTPUT   'pressure/sim_02_pressure_time_10593.rwo'
+*PROPERTY-FOR 'Pressure'              10593 *MATRIX *XYZLAYER 0
+
+
+
+** 
+** dynamic properties
+** ------------------
+** 
+
+*OUTPUT 'sim_02_cumulative_production.rwo'
+*TIMES-FOR 1 366 731 1096 1461 1827 2192 2557 2922 3288 3561 3653 4018 4383 4749 5114 5479 5844 6210 6575 6940 7305 7671 8036 8401 8766 9132 9497 9862 10227 10593
+*LINES-PER-PAGE 1000
+*TABLE-FOR
+   *COLUMN-FOR   *WELLS   'Producer_02'
+      *PARAMETERS   'Cumulative Oil SC' 
+      *PARAMETERS   'Cumulative Water SC'
+      *PARAMETERS   'Cumulative Gas SC'
+*TABLE-END
+
