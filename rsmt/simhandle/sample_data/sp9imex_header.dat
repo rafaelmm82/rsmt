@@ -29,7 +29,7 @@
 ** injector located at (24,25) and 25 producers.                              **
 **                                                                            **
 ********************************************************************************
-RESULTS SIMULATOR IMEX
+
 
 
 ********************************************************************************
@@ -49,45 +49,20 @@ RESULTS SIMULATOR IMEX
 
 *NOLIST
 *INUNIT *FIELD              ** Field units are used for both input and output.
+
 *WPRN   *WELL 0
 *WPRN   *GRID 0
 *OUTPRN *GRID *PRES *SO *SW  *SG
-
-** check the followint extra properties doc page 291
-** *OILPOT oil potential
-** *BPP bubble point pressure
-** check possibilities in manual to implement in package
-
 *OUTPRN *TABLES *NONE
+
 *WSRF   *GRID   *TIME
 *WSRF   *WELL   *TIME
 *OUTSRF *GRID *SO *SW  *SG  *PRES
 
-** check possibilities in manual to implement in package
-** to check the pression at well positions and on perforatino cell and on top
-
-
-*OUTSRF *SPECIAL 1 1 1 PRES
-*OUTSRF *SPECIAL 24 25 11 PRES
-*OUTSRF *SPECIAL 24 25 12 PRES
-*OUTSRF *SPECIAL 24 25 13 PRES
-*OUTSRF *SPECIAL 24 25 14 PRES
-*OUTSRF *SPECIAL 24 25 15 PRES
-*OUTSRF *SPECIAL 8 13 2 PRES
-*OUTSRF *SPECIAL 8 13 3 PRES
-*OUTSRF *SPECIAL 8 13 4 PRES
-
-*OUTSRF *SPECIAL 1 13 1 SG
-*OUTSRF *SPECIAL 5 13 1 SG
-*OUTSRF *SPECIAL 10 13 1 SG
-*OUTSRF *SPECIAL 15 13 1 SG
-
-*OUTSRF *SPECIAL 24 25 1 SW
-*OUTSRF *SPECIAL 20 25 1 SW
-*OUTSRF *SPECIAL 15 25 1 SW
-*OUTSRF *SPECIAL 10 25 1 SW
-
 *OUTDIARY  *WELLSTATUS
+
+
+
 ********************************************************************************
 ** Reservoir Description Section                                              **
 ********************************************************************************
@@ -2385,10 +2360,14 @@ RESULTS SIMULATOR IMEX
 *PERMJ *EQUALSI             ** J-direction permeability same as I-direction
 *PERMK *EQUALSI * 0.01      ** K-direction permeability = 0.01 I-direction k
 
-*MODEL *BLACKOIL            ** Solve three phase three equations.
+
+
 ********************************************************************************
 ** Component Property Section                                                 **
 ********************************************************************************
+
+*MODEL *BLACKOIL            ** Solve three phase three equations.
+
 *TRES 100
 *PVT  *ZG
 ** p       rs     bo      zg    viso     visg
@@ -2414,12 +2393,15 @@ RESULTS SIMULATOR IMEX
 *VWI   0.96
 *CVW   0.0
 
-*ROCKFLUID
+
+
 ********************************************************************************
 ** Rock-Fluid Property Section                                                **
 ********************************************************************************
-*RPT 1
 
+*ROCKFLUID
+
+*RPT 1
 
 *SWT                          ** Water-oil relative permeability table
 ** sw          krw     krow       pcow
@@ -2468,10 +2450,13 @@ RESULTS SIMULATOR IMEX
 0.848910   1.0000   0.00   3.9
 
 
-*INITIAL
+
 ********************************************************************************
 ** Initial Conditions Section                                                 **
 ********************************************************************************
+
+*INITIAL
+
 *VERTICAL *BLOCK_CENTER     ** Use vertical equilibrium calculation.
 *PB *CON    3600.0          ** buble point pressure
 *REFDEPTH   9035.           ** Give a reference depth  and
@@ -2481,10 +2466,13 @@ RESULTS SIMULATOR IMEX
 *DATUMDEPTH 9035.
 
 
-*NUMERICAL
+
 ********************************************************************************
 ** Numerical Control Section                                                  **
 ********************************************************************************
+
+*NUMERICAL
+
 *DTMAX       60.
 *MAXSTEPS    300
 *NORM *PRESS 500.
@@ -2504,10 +2492,15 @@ RESULTS SIMULATOR IMEX
 *MAXCHANGE *SATUR 0.10 ** removes a cut a timstep 42 and reduces total Newton
                        ** iterations by 3. Default value is 2*(NORM *SATUR)=.8
 *PRECC 0.005
-*RUN
+
+
+
 ********************************************************************************
 ** Well and Recurrent Data Section                                            **
 ********************************************************************************
+
+*RUN
+
 *DATE 1980 01 01
 *DTWELL 1.00
 *AIMWELL *WELLNN

@@ -1,0 +1,36 @@
+@startuml
+
+
+class Manager {
+
+    + work_dir
+
+
+    + setup_reservoir()
+    + generate_sim_files()
+    + execute_project()
+    + retrieve_data()
+}
+
+class Reservoir {
+
+    + properties
+}
+
+class Project {
+
+    + wells
+    + runs
+    + properties
+    + steps
+}
+
+class Well {
+
+    +
+
+}
+
+
+
+@enduml

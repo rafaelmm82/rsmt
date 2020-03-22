@@ -1,0 +1,59 @@
+{
+
+
+  "I/O Control Section" : {
+
+    "*TITLE1" : "Ninth SPE Comparative Solution Project",
+    "*TITLE2" : "STONE, 3-D HETEROGENEOUS EXAMPLE",
+    "*TITLE3" : "Killough, 13th SPE Res Sim Symp, 1995",
+
+    "*NOLIST" :  null,
+    "*INUNIT": "*FIELD",
+
+    "*WPRN *WELL" : 0,
+    "*WPRN *GRID" : 0,
+
+    "*OUTPRN *GRID" : [ "*PRESS", "*SO", "*SW", "*SG"],
+    "*OUTPRN *TABLES" : "*NONE",
+
+    "*WSRF *GRID" : "*TIME",
+    "*WSRF *WELL" : "*TIME",
+    "*OUTSRF *GRID" : [ "*SO", "*SW",  "*SG",  "*PRES"]
+
+
+
+
+  },
+
+
+  "Reservoir Description" : {
+
+  },
+
+
+  "Component Properties" : {
+
+  },
+
+
+  "Rock-Fluid Data" : {
+
+  },
+
+
+  "Initial Conditions" : {
+
+  },
+
+
+  "Numerical Methods Control" : {
+
+  },
+
+
+  "Well and Recurrent Data" : {
+
+  }
+
+
+}
