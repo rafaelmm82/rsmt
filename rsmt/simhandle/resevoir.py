@@ -14,6 +14,9 @@ class ReservoirCartesian(Reservoir):
         super().__init__(name)
         self.dimension = dimension  # size of i, j, k
         self.name = name  # str with name
+        self.header = None
+
+        self.initialize(file_header)
 
         # properties
         # properties are instantiated in 3d numpy array in this sequence
@@ -29,4 +32,18 @@ class ReservoirCartesian(Reservoir):
         self.permeability_k = None  # 3D array for x, y, z
         self.porosity = None  # 3D array for x, y, z
 
+    def initialize(self, file_header):
+
+        with open(file_header, mode='r') as file_dat_header:
+            self.header = file_dat_header.read()
+
+
+class Well:
+
+    def __init__(self, name=None, x=None, y=None, z=None):
+        # initially only one perforation per well
+        self.name = name
+        self.x = x
+        self.y = y
+        self.z = z
 

@@ -2494,3 +2494,53 @@
 *PRECC 0.005
 
 
+
+********************************************************************************
+** Well and Recurrent Data Section                                            **
+********************************************************************************
+
+*RUN
+
+*DATE 1980 01 01
+*DTWELL 1.00
+*AIMWELL *WELLNN
+
+*GROUP 'ALL-WELLS' *ATTACHTO 'FIELD'
+
+*******
+** WELL
+*******
+
+
+** For each well
+*WELL 'well_2' VERT 5 11 ATTACHTO 'ALL-WELLS'
+*PRODUCER 'well_2'
+OPERATE MIN BHP 1000. CONT
+
+**          rad  geofac  wfrac  skin
+**             rad  geofac  wfrac   skin
+*GEOMETRY  *K  0.5  0.355   1.0     0.0
+*PERF       GEO  'well_2'
+
+** UBA            ff   Status  Connection
+5 11 4   1.0  OPEN   FLOW-TO 'SURFACE' REFLAYER
+** %X %Y %ZP2   1.0  OPEN   FLOW-TO 1
+
+
+******
+** Project steps
+******
+
+
+*TIME  1
+*TIME  30
+*TIME  60
+*TIME  90
+*TIME  120
+*TIME  150
+*TIME  180
+*TIME  210
+*TIME  240
+
+*STOP
+
