@@ -12,7 +12,7 @@ class SimProject:
         self.time_steps = time_steps  # array of ints for each day number
 
     def generate_time_steps(self):
-        time_steps = "**************\n** TIME STEPS\n**************\n\n"
+        time_steps = "\n**************\n** TIME STEPS\n**************\n\n"
 
         for t in self.time_steps:
             time_steps += "*TIME {}\n".format(t)

@@ -31,9 +31,9 @@ class Manager:
             file_name = self.reservoir.name + '_' + self.project.name \
                         + '_' + i.name + '.dat'
             with open(file_name, mode='w') as file_sim:
-                file_sim.write(self.reservoir.head)
+                file_sim.write(self.reservoir.header)
                 file_sim.write(file_well_head)
-                file_sim.write(self.project.generate_well_entry[e])
+                file_sim.write(self.project.generate_well_entry(e))
                 file_sim.write(file_well_time_steps)
 
             os.chdir(self.work_dir)
