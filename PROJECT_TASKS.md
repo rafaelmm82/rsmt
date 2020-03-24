@@ -20,6 +20,7 @@
 - [ ] code generate files
   - [ ] generate sim input file
   - [ ] generate sim output extract
+  - [ ] generate script to execute all simulations
 - [ ] code execute step
   - [ ] simulate all files
   - [ ] report all results
