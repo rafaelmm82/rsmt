@@ -1,8 +1,6 @@
 from .manager import Manager
-from .resevoir import ReservoirCartesian, Well
-from .sim_project import SimProject
+from .resevoir import ReservoirCartesian
+from .well import VerticalWell
+from .project import Project, Simulation
 
-
-# from .sim_instance import SimWell
-# from .sim_instance import SimInstance
 

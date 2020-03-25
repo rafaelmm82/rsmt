@@ -16,7 +16,6 @@
 *********
 
 
-** For each well
 *WELL '%Well_Name' VERT %X %Y ATTACHTO 'ALL-WELLS'
 *PRODUCER '%Well_Name'
 OPERATE MIN BHP 1000. CONT

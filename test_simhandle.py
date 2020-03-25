@@ -1,58 +1,42 @@
-from rsmt.simhandle import Manager, ReservoirCartesian, SimProject, Well
+from rsmt.simhandle import Manager, ReservoirCartesian, VerticalWell
+from rsmt.simhandle import Project, Simulation
 
+work_dir = 'C:\\Users\\magalraf\\Documents\\GitHub\\rsmt\\test_sim'
 
-work_dir = '/home/rafael/GitHub/rsmt/test_sim'
+# %%
 
-# setup
-#  reservoir
-#  wells
-#  project
-#  manager
+reservoir = ReservoirCartesian(name='spe9', dimension=[24, 25, 15], template='spe9')
 
-manager = Manager(work_dir=work_dir)
-
-reservoir = ReservoirCartesian(name='spe9',
-                               dimension=[24, 25, 15],
-                               file_header='spe9_header.dat')
-
-wells_pos = {
-    'Producer1': [5, 1],
-    'Producer2': [8, 2],
-    'Producer3': [11, 3],
-    'Producer4': [10, 4],
-    'Producer5': [12, 5],
-    'Producer6': [4, 6],
-    'Producer7': [8, 7],
-    'Producer8': [14, 8],
-    'Producer9': [11, 9],
-    'Producer10': [12, 10],
-    'Producer11': [10, 11],
-    'Producer12': [5, 12],
-    'Producer14': [11, 14],
-    'Producer15': [13, 15],
-    'Producer16': [15, 16],
-    'Producer17': [11, 17],
-    'Producer18': [12, 18],
-    'Producer19': [5, 19],
-    'Producer20': [8, 20],
-    'Producer21': [11, 21],
-    'Producer22': [15, 22],
-    'Producer23': [12, 23],
-    'Producer24': [10, 24],
-    'Producer25': [17, 25],
+z = 3
+well_descriptions = {
+    'prod_01': [5, 1, z],
+    'prod_03': [11, 3, z],
+    'prod_05': [12, 5, z],
+    'prod_09': [11, 9, z],
+    'prod_10': [12, 10, z],
+    'prod_17': [11, 17, z],
+    'prod_18': [12, 18, z],
+    'prod_19': [5, 19, z],
+    'prod_24': [10, 24, z],
+    'prod_25': [17, 25, z],
 }
 
-# initially fixed z position for perforation
-z_pos = 3
-wells = [Well(name=k, x=v[0], y=v[1], z=z_pos) for k, v in wells_pos.items()]
+well_list = [VerticalWell(name=k, x=v[0], y=v[1], z=v[2])
+             for k, v in well_descriptions.items()]
 
-steps = list(range(1, 365, 30))
+simulations = [Simulation(name=str(e), wells=[w])
+               for e, w in enumerate(well_list)]
 
-project = SimProject(name='onewell_z3', reservoir=reservoir,
-                     instances=wells, time_steps=steps)
+monthly_10_years = list(range(1, 3650, 30))
 
+project_DNN = Project(name='spe9_one_well_z3',
+                      reservoir=reservoir,
+                      wells=well_list,
+                      simulations=simulations,
+                      time_steps=monthly_10_years)
 
-manager.setup(reservoir, project, wells)
+manager = Manager(work_dir=work_dir, project=project_DNN)
+
 
 
 # %%
@@ -64,7 +48,7 @@ print(manager.project.generate_well_header())
 print(manager.project.generate_well_entry(1))
 
 manager.generate_files()
-
+print(manager.project.generate_sim_output_extract_file(2))
 
 # execute plans
 

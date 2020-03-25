@@ -6,6 +6,7 @@
 - [x] code project generation
 - [x] code reservoir header creation
 - [x] code wells creation
+- [ ] refactoring code
 - [ ] code generate files
 - [ ] code execute step
 - [ ] code retrieve data
@@ -18,6 +19,7 @@
 - [x] code well and creation
 - [x] code reservoir header creation in the beginning with header
 - [ ] code generate files
+  - [ ] refactoring code
   - [ ] generate sim input file
   - [ ] generate sim output extract
   - [ ] generate script to execute all simulations

@@ -2,35 +2,57 @@
 
 
 class Manager {
-
     + work_dir
+    + simulator_bin
+    + report_bin
+    + Project
 
-
-    + setup_reservoir()
-    + generate_sim_files()
+    + setup_simulation()
     + execute_project()
     + retrieve_data()
 }
 
-class Reservoir {
-
-    + properties
+class Project {
+    + name
+    + Reservoir
+    + time_steps
+    + [Well]
+    + [Simulation]
 }
 
-class Project {
+class Simulation {
+    + name
+    + [well]
+}
 
-    + wells
-    + runs
-    + properties
-    + steps
+class Reservoir {
+    + name
+}
+
+class ReservoirCartesian {
+    + dimension
+    + header
 }
 
 class Well {
+    + name
+}
 
-    +
-
+class WellVertical {
+    + x
+    + y
+    + z
 }
 
 
+Manager o--right Project
+Project *--right Reservoir
+Project *-- "1..*" Well
+Reservoir "1" o--right "1..*" Well
+Project "1" *--right "1..*" Simulation
+Simulation o.- "1" Reservoir
+Simulation o.- "1..*" Well
+Reservoir <|.- ReservoirCartesian
+Well <|.- WellVertical
 
 @enduml
