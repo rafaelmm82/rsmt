@@ -38,6 +38,8 @@ project_DNN = Project(name='spe9_one_well_z3',
 manager = Manager(work_dir=work_dir, project=project_DNN)
 
 
+# %%
+manager.setup_simulation()
 
 # %%
 # generate files
