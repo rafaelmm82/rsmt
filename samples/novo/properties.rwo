@@ -1,0 +1,319 @@
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'               0 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'               1 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'             366 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'             731 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            1096 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            1461 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            1827 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            2192 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            2557 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            2922 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            3288 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            3561 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            3653 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            4018 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            4383 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            4749 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            5114 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            5479 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            5844 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            6210 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            6575 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            6940 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            7305 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            7671 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            8036 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            8401 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            8766 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            9132 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            9497 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'            9862 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'           10227 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Layer'           10593 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'               0 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'               1 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'             366 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'             731 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            1096 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            1461 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            1827 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            2192 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            2557 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            2922 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            3288 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            3561 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            3653 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            4018 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            4383 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            4749 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            5114 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            5479 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            5844 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            6210 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            6575 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            6940 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            7305 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            7671 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            8036 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            8401 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            8766 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            9132 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            9497 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'            9862 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'           10227 *MATRIX
+*PROPERTY-FOR 'Gas Per Unit Area - Total'           10593 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'               0 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'               1 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'             366 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'             731 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            1096 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            1461 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            1827 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            2192 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            2557 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            2922 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            3288 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            3561 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            3653 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            4018 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            4383 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            4749 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            5114 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            5479 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            5844 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            6210 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            6575 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            6940 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            7305 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            7671 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            8036 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            8401 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            8766 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            9132 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            9497 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'            9862 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'           10227 *MATRIX
+*PROPERTY-FOR 'Gas Saturation'           10593 *MATRIX
+*PROPERTY-FOR 'Grid Bottom'               0 *MATRIX
+*PROPERTY-FOR 'Grid Centroid X'               0 *MATRIX
+*PROPERTY-FOR 'Grid Centroid Y'               0 *MATRIX
+*PROPERTY-FOR 'Grid Connection Group Number'               0 *MATRIX
+*PROPERTY-FOR 'Grid Fundamental Layer Number'               0 *MATRIX
+*PROPERTY-FOR 'Grid Paydepth'               0 *MATRIX
+*PROPERTY-FOR 'Grid Thickness'               0 *MATRIX
+*PROPERTY-FOR 'Grid Top'               0 *MATRIX
+*PROPERTY-FOR 'Gross Block Volume'               0 *MATRIX
+*PROPERTY-FOR 'Krg at Connate Liquid(2)'               0 *MATRIX
+*PROPERTY-FOR 'Kro at Connate Water ST'               0 *MATRIX
+*PROPERTY-FOR 'Krog at Connate Gas(2)'               0 *MATRIX
+*PROPERTY-FOR 'Krw at Irreducible Oil ST'               0 *MATRIX
+*PROPERTY-FOR 'Low Side Trans  Multiplier I'               0 *MATRIX
+*PROPERTY-FOR 'Low Side Trans  Multiplier J'               0 *MATRIX
+*PROPERTY-FOR 'Low Side Trans  Multiplier K'               0 *MATRIX
+*PROPERTY-FOR 'Max Gas-Oil Cap Pres'               0 *MATRIX
+*PROPERTY-FOR 'Max Water-Oil Cap Pres'               0 *MATRIX
+*PROPERTY-FOR 'Modified Block Volume'               0 *MATRIX
+*PROPERTY-FOR 'Net Pay'               0 *MATRIX
+*PROPERTY-FOR 'Net Pore Volume'               0 *MATRIX
+*PROPERTY-FOR 'Net to Gross Ratio'               0 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'               0 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'               1 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'             366 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'             731 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            1096 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            1461 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            1827 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            2192 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            2557 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            2922 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            3288 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            3561 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            3653 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            4018 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            4383 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            4749 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            5114 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            5479 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            5844 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            6210 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            6575 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            6940 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            7305 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            7671 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            8036 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            8401 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            8766 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            9132 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            9497 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'            9862 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'           10227 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Layer'           10593 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'               0 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'               1 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'             366 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'             731 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            1096 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            1461 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            1827 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            2192 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            2557 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            2922 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            3288 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            3561 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            3653 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            4018 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            4383 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            4749 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            5114 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            5479 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            5844 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            6210 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            6575 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            6940 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            7305 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            7671 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            8036 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            8401 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            8766 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            9132 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            9497 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'            9862 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'           10227 *MATRIX
+*PROPERTY-FOR 'Oil Per Unit Area - Total'           10593 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'               0 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'               1 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'             366 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'             731 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            1096 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            1461 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            1827 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            2192 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            2557 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            2922 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            3288 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            3561 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            3653 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            4018 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            4383 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            4749 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            5114 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            5479 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            5844 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            6210 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            6575 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            6940 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            7305 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            7671 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            8036 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            8401 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            8766 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            9132 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            9497 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'            9862 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'           10227 *MATRIX
+*PROPERTY-FOR 'Oil Saturation'           10593 *MATRIX
+*PROPERTY-FOR 'Permeability I'               0 *MATRIX
+*PROPERTY-FOR 'Permeability J'               0 *MATRIX
+*PROPERTY-FOR 'Permeability K'               0 *MATRIX
+*PROPERTY-FOR 'Porosity'               0 *MATRIX
+*PROPERTY-FOR 'Porosity - Effective Ref.'               0 *MATRIX
+*PROPERTY-FOR 'Pressure'               0 *MATRIX
+*PROPERTY-FOR 'Pressure'               1 *MATRIX
+*PROPERTY-FOR 'Pressure'             366 *MATRIX
+*PROPERTY-FOR 'Pressure'             731 *MATRIX
+*PROPERTY-FOR 'Pressure'            1096 *MATRIX
+*PROPERTY-FOR 'Pressure'            1461 *MATRIX
+*PROPERTY-FOR 'Pressure'            1827 *MATRIX
+*PROPERTY-FOR 'Pressure'            2192 *MATRIX
+*PROPERTY-FOR 'Pressure'            2557 *MATRIX
+*PROPERTY-FOR 'Pressure'            2922 *MATRIX
+*PROPERTY-FOR 'Pressure'            3288 *MATRIX
+*PROPERTY-FOR 'Pressure'            3561 *MATRIX
+*PROPERTY-FOR 'Pressure'            3653 *MATRIX
+*PROPERTY-FOR 'Pressure'            4018 *MATRIX
+*PROPERTY-FOR 'Pressure'            4383 *MATRIX
+*PROPERTY-FOR 'Pressure'            4749 *MATRIX
+*PROPERTY-FOR 'Pressure'            5114 *MATRIX
+*PROPERTY-FOR 'Pressure'            5479 *MATRIX
+*PROPERTY-FOR 'Pressure'            5844 *MATRIX
+*PROPERTY-FOR 'Pressure'            6210 *MATRIX
+*PROPERTY-FOR 'Pressure'            6575 *MATRIX
+*PROPERTY-FOR 'Pressure'            6940 *MATRIX
+*PROPERTY-FOR 'Pressure'            7305 *MATRIX
+*PROPERTY-FOR 'Pressure'            7671 *MATRIX
+*PROPERTY-FOR 'Pressure'            8036 *MATRIX
+*PROPERTY-FOR 'Pressure'            8401 *MATRIX
+*PROPERTY-FOR 'Pressure'            8766 *MATRIX
+*PROPERTY-FOR 'Pressure'            9132 *MATRIX
+*PROPERTY-FOR 'Pressure'            9497 *MATRIX
+*PROPERTY-FOR 'Pressure'            9862 *MATRIX
+*PROPERTY-FOR 'Pressure'           10227 *MATRIX
+*PROPERTY-FOR 'Pressure'           10593 *MATRIX
+*PROPERTY-FOR 'Sub Domain Number'               0 *MATRIX
+*PROPERTY-FOR 'Ternary'               0 *MATRIX
+*PROPERTY-FOR 'Ternary'               1 *MATRIX
+*PROPERTY-FOR 'Ternary'             366 *MATRIX
+*PROPERTY-FOR 'Ternary'             731 *MATRIX
+*PROPERTY-FOR 'Ternary'            1096 *MATRIX
+*PROPERTY-FOR 'Ternary'            1461 *MATRIX
+*PROPERTY-FOR 'Ternary'            1827 *MATRIX
+*PROPERTY-FOR 'Ternary'            2192 *MATRIX
+*PROPERTY-FOR 'Ternary'            2557 *MATRIX
+*PROPERTY-FOR 'Ternary'            2922 *MATRIX
+*PROPERTY-FOR 'Ternary'            3288 *MATRIX
+*PROPERTY-FOR 'Ternary'            3561 *MATRIX
+*PROPERTY-FOR 'Ternary'            3653 *MATRIX
+*PROPERTY-FOR 'Ternary'            4018 *MATRIX
+*PROPERTY-FOR 'Ternary'            4383 *MATRIX
+*PROPERTY-FOR 'Ternary'            4749 *MATRIX
+*PROPERTY-FOR 'Ternary'            5114 *MATRIX
+*PROPERTY-FOR 'Ternary'            5479 *MATRIX
+*PROPERTY-FOR 'Ternary'            5844 *MATRIX
+*PROPERTY-FOR 'Ternary'            6210 *MATRIX
+*PROPERTY-FOR 'Ternary'            6575 *MATRIX
+*PROPERTY-FOR 'Ternary'            6940 *MATRIX
+*PROPERTY-FOR 'Ternary'            7305 *MATRIX
+*PROPERTY-FOR 'Ternary'            7671 *MATRIX
+*PROPERTY-FOR 'Ternary'            8036 *MATRIX
+*PROPERTY-FOR 'Ternary'            8401 *MATRIX
+*PROPERTY-FOR 'Ternary'            8766 *MATRIX
+*PROPERTY-FOR 'Ternary'            9132 *MATRIX
+*PROPERTY-FOR 'Ternary'            9497 *MATRIX
+*PROPERTY-FOR 'Ternary'            9862 *MATRIX
+*PROPERTY-FOR 'Ternary'           10227 *MATRIX
+*PROPERTY-FOR 'Ternary'           10593 *MATRIX
+*PROPERTY-FOR 'Trans Multiplier I'               0 *MATRIX
+*PROPERTY-FOR 'Trans Multiplier J'               0 *MATRIX
+*PROPERTY-FOR 'Trans Multiplier K'               0 *MATRIX
+*PROPERTY-FOR 'Water Saturation'               0 *MATRIX
+*PROPERTY-FOR 'Water Saturation'               1 *MATRIX
+*PROPERTY-FOR 'Water Saturation'             366 *MATRIX
+*PROPERTY-FOR 'Water Saturation'             731 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            1096 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            1461 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            1827 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            2192 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            2557 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            2922 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            3288 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            3561 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            3653 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            4018 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            4383 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            4749 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            5114 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            5479 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            5844 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            6210 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            6575 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            6940 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            7305 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            7671 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            8036 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            8401 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            8766 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            9132 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            9497 *MATRIX
+*PROPERTY-FOR 'Water Saturation'            9862 *MATRIX
+*PROPERTY-FOR 'Water Saturation'           10227 *MATRIX
+*PROPERTY-FOR 'Water Saturation'           10593 *MATRIX

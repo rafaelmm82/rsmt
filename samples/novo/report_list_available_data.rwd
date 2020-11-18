@@ -1,0 +1,9 @@
+
+*FILE 'sim_02_spe9.irf'
+
+*OUTPUT 'parameters.rwo'
+*LIST-PARAMETERS
+
+*OUTPUT 'properties.rwo'
+*LIST-PROPERTIES
+

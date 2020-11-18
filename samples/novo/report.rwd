@@ -1,0 +1,100 @@
+
+*FILE 'sim_02_spe9.irf'
+
+*PRECISION 7
+*WIDTH 15
+
+** 
+** static properties
+** -----------------
+** 
+
+*OUTPUT 'static/permeability_i.rwo'
+*PROPERTY-FOR 'Permeability I'              0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/permeability_j.rwo'
+*PROPERTY-FOR 'Permeability J'              0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/permeability_k.rwo'
+*PROPERTY-FOR 'Permeability K'              0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/porosity.rwo'
+*PROPERTY-FOR 'Porosity'              0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_bottom.rwo'
+*PROPERTY-FOR 'Grid Bottom'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_centroid_x.rwo'
+*PROPERTY-FOR 'Grid Centroid X'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_centroid_y.rwo'
+*PROPERTY-FOR 'Grid Centroid Y'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_paydepth.rwo'
+*PROPERTY-FOR 'Grid Paydepth'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_thickness.rwo'
+*PROPERTY-FOR 'Grid Thickness'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_top.rwo'
+*PROPERTY-FOR 'Grid Top'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/gross_block_volume.rwo'
+*PROPERTY-FOR 'Gross Block Volume'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/net_pay.rwo'
+*PROPERTY-FOR 'Net Pay'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/net_pore_volume.rwo'
+*PROPERTY-FOR 'Net Pore Volume'               0 *MATRIX *XYZLAYER 0
+
+
+
+** 
+** dynamic properties
+** ------------------
+** 
+
+*OUTPUT   'results/sim_02_oil_saturation_all_times.rwo'
+*PROPERTY-FOR 'Oil Saturation'              *ALL-TIMES *MATRIX *XYZLAYER 0
+
+*OUTPUT   'results/sim_02_gas_saturation_all_times.rwo'
+*PROPERTY-FOR 'Gas Saturation'              *ALL-TIMES *MATRIX *XYZLAYER 0
+
+*OUTPUT   'results/sim_02_water_saturation_all_times.rwo'
+*PROPERTY-FOR 'Water Saturation'             *ALL-TIMES *MATRIX *XYZLAYER 0
+
+*OUTPUT   'results/sim_02_pressure_all_times.rwo'
+*PROPERTY-FOR 'Pressure'              *ALL-TIMES *MATRIX *XYZLAYER 0
+
+
+** 
+** dynamic parameters
+** ------------------
+** 
+
+*OUTPUT 'results/sim_02_cumulative_production.rwo'
+*TIMES-FOR 0 1 366 731 1096 1461 1827 2192 2557 2922 3288 3561 3653 4018 4383 4749 5114 5479 5844 6210 6575 6940 7305 7671 8036 8401 8766 9132 9497 9862 10227 10593
+*LINES-PER-PAGE 1000
+*TABLE-FOR
+   *COLUMN-FOR   *WELLS   'Producer_02'
+      *PARAMETERS   'Cumulative Oil SC' 
+      *PARAMETERS   'Cumulative Gas SC'
+      *PARAMETERS   'Cumulative Water SC'
+*TABLE-END
+
+
+*OUTPUT 'results/sim_02_cumulative_volume.rwo'
+*TIMES-FOR 1 366 731 1096 1461 1827 2192 2557 2922 3288 3561 3653 4018 4383 4749 5114 5479 5844 6210 6575 6940 7305 7671 8036 8401 8766 9132 9497 9862 10227 10593
+*LINES-PER-PAGE 1000
+*TABLE-FOR
+   *COLUMN-FOR   *SECTORS 'Entire  Field'
+      *PARAMETERS 'Oil Volume SC SCTR'
+      *PARAMETERS 'Oil Volume RC SCTR'
+      *PARAMETERS 'Gas Volume SC SCTR'
+      *PARAMETERS 'Gas Volume RC SCTR' 
+      *PARAMETERS 'Water Volume SC SCTR'
+      *PARAMETERS 'Water Volume RC SCTR'
+*TABLE-END
+
+                          
