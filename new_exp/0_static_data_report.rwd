@@ -1,0 +1,51 @@
+
+*FILE '0_static_spe9.irf'
+
+*PRECISION 7
+*WIDTH 15
+
+** 
+** static properties
+** -----------------
+** 
+
+*OUTPUT 'static/permeability_i.rwo'
+*PROPERTY-FOR 'Permeability I'              0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/permeability_j.rwo'
+*PROPERTY-FOR 'Permeability J'              0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/permeability_k.rwo'
+*PROPERTY-FOR 'Permeability K'              0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/porosity.rwo'
+*PROPERTY-FOR 'Porosity'              0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_bottom.rwo'
+*PROPERTY-FOR 'Grid Bottom'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_centroid_x.rwo'
+*PROPERTY-FOR 'Grid Centroid X'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_centroid_y.rwo'
+*PROPERTY-FOR 'Grid Centroid Y'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_paydepth.rwo'
+*PROPERTY-FOR 'Grid Paydepth'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_thickness.rwo'
+*PROPERTY-FOR 'Grid Thickness'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/grid_top.rwo'
+*PROPERTY-FOR 'Grid Top'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/gross_block_volume.rwo'
+*PROPERTY-FOR 'Gross Block Volume'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/net_pay.rwo'
+*PROPERTY-FOR 'Net Pay'               0 *MATRIX *XYZLAYER 0
+
+*OUTPUT 'static/net_pore_volume.rwo'
+*PROPERTY-FOR 'Net Pore Volume'               0 *MATRIX *XYZLAYER 0
+
+

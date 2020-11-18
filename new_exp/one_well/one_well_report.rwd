@@ -1,0 +1,23 @@
+
+*FILE 'one_well_spe9.irf'
+
+*PRECISION 7
+*WIDTH 15
+
+
+** 
+** dynamic properties
+** ------------------
+** 
+
+*OUTPUT   'results/oil_saturation.rwo'
+*PROPERTY-FOR 'Oil Saturation'              *ALL-TIMES *MATRIX *XYZLAYER 0
+
+*OUTPUT   'results/gas_saturation.rwo'
+*PROPERTY-FOR 'Gas Saturation'              *ALL-TIMES *MATRIX *XYZLAYER 0
+
+*OUTPUT   'results/water_saturation.rwo'
+*PROPERTY-FOR 'Water Saturation'             *ALL-TIMES *MATRIX *XYZLAYER 0
+
+*OUTPUT   'results/pressure.rwo'
+*PROPERTY-FOR 'Pressure'              *ALL-TIMES *MATRIX *XYZLAYER 0
